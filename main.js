@@ -64,3 +64,13 @@ pole.addEventListener("click", (e) => {
     span.innerHTML = simbol;
     checkWin();
 });
+
+switchMode.onclick = function () {
+    let theme = document.getElementById("theme")
+
+    if (theme.getAttribute("href") == "style.css") {
+        theme.href = "light.css"
+    } else {
+        theme.href = "style.css"
+    }
+}
