@@ -1,0 +1,57 @@
+body {
+    background-color: #161616;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.pole {
+    height: 570px;
+    width: 570px;
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pole div {
+    width: 190px;
+    height: 190px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+p {
+    font-weight: 700;
+    color: green;
+}
+
+button {
+    background-color: rgb(74, 71, 71);
+}
+
+.warper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crasivo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pustota {
+    width: 42%;
+}
